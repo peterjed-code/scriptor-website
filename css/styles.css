@@ -1,0 +1,355 @@
+:root {
+  --bg: #0f1219;
+  --surface: #171c28;
+  --border: #2a3347;
+  --text: #e8ecf4;
+  --muted: #8b95a8;
+  --accent: #6c9eff;
+  --accent-dim: #4a74c4;
+  --danger: #f07178;
+  --radius: 10px;
+  --font: "DM Sans", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.env-warning {
+  margin: 0;
+  padding: 0.75rem 1.25rem;
+  background: #3d2914;
+  border-bottom: 1px solid #6b4420;
+  color: #f5e6d3;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font);
+  background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #1e2a3d 0%, transparent 50%), var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+header.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+header.site-header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+.panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.gate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 420px;
+}
+
+.gate-form label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.gate-form input[type="password"],
+.gate-form input[type="text"] {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.gate-form input:focus {
+  outline: 2px solid var(--accent-dim);
+  outline-offset: 2px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+button.btn {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 1rem;
+  background: var(--accent);
+  color: #0a0c10;
+  font-weight: 600;
+}
+
+button.btn:hover {
+  filter: brightness(1.08);
+}
+
+button.btn.secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button.btn.secondary:hover {
+  border-color: var(--muted);
+}
+
+.error {
+  color: var(--danger);
+  font-size: 0.9rem;
+  min-height: 1.25rem;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+#banner-role {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.form-shell {
+  position: relative;
+  min-height: 480px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.form-shell iframe {
+  width: 100%;
+  height: 720px;
+  border: 0;
+  display: block;
+}
+
+.form-placeholder {
+  padding: 2rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+#data-status {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.user-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.25rem;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.user-card > h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.week-block {
+  margin-bottom: 1.35rem;
+  padding: 1rem 1rem 0.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.week-block:last-child {
+  margin-bottom: 0;
+}
+
+.week-title {
+  margin: 0 0 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+}
+
+.subsection h4 {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.week-block .subsection {
+  margin-bottom: 1rem;
+}
+
+.week-block .subsection:last-child {
+  margin-bottom: 0.75rem;
+}
+
+.subsection h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.entry-list {
+  margin: 0 0 1.25rem;
+  padding-left: 1.2rem;
+}
+
+.entry-list li {
+  margin-bottom: 0.5rem;
+}
+
+.entry-list .ts {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.media-item {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+}
+
+.media-item video {
+  height: auto;
+  min-height: 120px;
+}
+
+.media-item .ts {
+  font-size: 0.7rem;
+  color: var(--muted);
+  padding: 0.35rem 0.5rem;
+}
+
+.media-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.4rem 0.45rem;
+  border-top: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+button.btn-dl {
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-dim);
+  background: rgba(108, 158, 255, 0.15);
+  color: var(--accent);
+}
+
+button.btn-dl:hover {
+  background: rgba(108, 158, 255, 0.28);
+}
+
+a.btn-dl.secondary {
+  font-size: 0.72rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+a.btn-dl.secondary:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+button.btn-dl.text-dl {
+  margin-top: 0.35rem;
+}
+

@@ -1,0 +1,5 @@
+Timestamp,Week,User,Textual Information,Photos/Videos
+"2025-02-01 10:00:00","Week 1","Peter Jedlicka","Demo note for Peter Jedlicka, week 1 (User column matches form dropdown text).","https://picsum.photos/seed/scriptor1669w1/480/320"
+"2025-02-02 14:30:00","Week 1","Stephen Andrews","Demo entry for Stephen Andrews, week 1.","https://picsum.photos/seed/scriptor1514w1/480/320"
+"2025-02-03 09:15:00","Week 2","Peter Jedlicka","Peter week 2 — second textual line.","https://picsum.photos/seed/scriptor1669w2a/320/320,https://picsum.photos/seed/scriptor1669w2b/320/320"
+"2025-02-10 11:00:00","Week 3","Peter Jedlicka","Peter week 3 entry.","https://picsum.photos/seed/scriptor1669w3/480/320"

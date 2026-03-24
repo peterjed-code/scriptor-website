@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scriptor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="env-warning" class="env-warning" role="status" hidden></div>
+    <div class="wrap">
+      <header class="site-header">
+        <div>
+          <h1>Scriptor</h1>
+          <p class="tagline">Submit and view information with your access key.</p>
+        </div>
+      </header>
+
+      <section id="gate" class="panel" hidden>
+        <h2>Enter access key</h2>
+        <div class="gate-form">
+          <label for="key-input">Key</label>
+          <input
+            id="key-input"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Paste key"
+          />
+          <div class="btn-row">
+            <button type="button" class="btn" id="unlock-btn">Unlock</button>
+          </div>
+          <p id="gate-error" class="error" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <div id="app" hidden>
+        <div class="top-bar">
+          <p id="banner-role"></p>
+          <div class="btn-row">
+            <button type="button" class="btn secondary" id="refresh-btn">Refresh data</button>
+            <button type="button" class="btn secondary" id="logout-btn">Lock</button>
+          </div>
+        </div>
+
+        <section class="panel">
+          <h2>Submit</h2>
+          <div class="form-shell">
+            <p id="form-placeholder" class="form-placeholder">The submission form is not loaded.</p>
+            <iframe
+              id="form-frame"
+              title="Submission form"
+              hidden
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Collected information</h2>
+          <p id="data-status" class="muted" aria-live="polite"></p>
+          <div id="data-root"></div>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/keys.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
