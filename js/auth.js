@@ -17,6 +17,17 @@
     return m ? m[1] : s.replace(/\D/g, "").slice(-4) || s;
   }
 
+  function keyMatches(entered, stored) {
+    const e = String(entered || "").trim();
+    const s = String(stored || "").trim();
+    if (!s) return false;
+    if (e === s) return true;
+    if (/^\d+$/.test(e) && /^\d+$/.test(s) && s.length <= 5 && e.length <= 5) {
+      return e.padStart(5, "0") === s.padStart(5, "0");
+    }
+    return false;
+  }
+
   /**
    * @returns {{ role: 'none'|'master'|'user', userId?: string }}
    */
@@ -24,13 +35,13 @@
     const key = String(enteredKey || "").trim();
     const keys = getKeys();
 
-    if (keys.masterKey && key === keys.masterKey) {
+    if (keys.masterKey && keyMatches(key, keys.masterKey)) {
       return { role: "master" };
     }
 
     const map = keys.userKeys || {};
     for (const uid of Object.keys(map)) {
-      if (map[uid] && key === map[uid]) {
+      if (map[uid] && keyMatches(key, map[uid])) {
         return { role: "user", userId: String(uid) };
       }
     }
