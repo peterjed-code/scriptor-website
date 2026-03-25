@@ -1,68 +1,292 @@
 [
-  { "id": "1546", "formLabel": "Mahmoud Abdelmoneum" },
-  { "id": "1514", "formLabel": "Stephen Andrews" },
-  { "id": "1769", "formLabel": "Hernando Ardila" },
-  { "id": "1620", "formLabel": "Zain Arfoosh" },
-  { "id": "1561", "formLabel": "Gianluca Balestrieri" },
-  { "id": "1570", "formLabel": "Chase Carroll" },
-  { "id": "1578", "formLabel": "Maxwell Cassidy" },
-  { "id": "1688", "formLabel": "Ike Chukwulozie" },
-  { "id": "1511", "formLabel": "Preston Dinh" },
+  {
+    "id": "1600",
+    "formLabel": "Aaron Martin"
+  },
+  {
+    "id": "1771",
+    "formLabel": "Aitor Arrese-Igor"
+  },
+  {
+    "id": "1565",
+    "formLabel": "Andrew Kulhan"
+  },
+  {
+    "id": "1622",
+    "formLabel": "Armando Melendez"
+  },
+  {
+    "id": "1525",
+    "formLabel": "AZ Krebs",
+    "aliases": [
+      "Abraham Krebs"
+    ]
+  },
+  {
+    "id": "1684",
+    "formLabel": "Branden Wang"
+  },
+  {
+    "id": "1596",
+    "formLabel": "Caiden Lung"
+  },
+  {
+    "id": "1772",
+    "formLabel": "Cameron Wright"
+  },
+  {
+    "id": "1662",
+    "formLabel": "Canon Robins"
+  },
+  {
+    "id": "1708",
+    "formLabel": "Charles Lai"
+  },
+  {
+    "id": "1570",
+    "formLabel": "Chase Carroll"
+  },
+  {
+    "id": "1694",
+    "formLabel": "Chase Williams"
+  },
+  {
+    "id": "1760",
+    "formLabel": "Cole Firlie"
+  },
+  {
+    "id": "1539",
+    "formLabel": "Colin Kamhi"
+  },
+  {
+    "id": "1608",
+    "formLabel": "Colter Mahabir"
+  },
+  {
+    "id": "1601",
+    "formLabel": "Colton Pozniak"
+  },
+  {
+    "id": "1773",
+    "formLabel": "Cooper Bailey"
+  },
+  {
+    "id": "1676",
+    "formLabel": "Dilin Meloni"
+  },
+  {
+    "id": "1698",
+    "formLabel": "Drew Geoly"
+  },
+  {
+    "id": "1634",
+    "formLabel": "Eric Lohse"
+  },
+  {
+    "id": "1768",
+    "formLabel": "Eric Ye"
+  },
+  {
+    "id": "1717",
+    "formLabel": "Ethan Fang"
+  },
+  {
+    "id": "1730",
+    "formLabel": "Ethan Geary"
+  },
+  {
+    "id": "1521",
+    "formLabel": "Ethan Reich"
+  },
+  {
+    "id": "1774",
+    "formLabel": "Evan Liu"
+  },
   {
     "id": "1560",
     "formLabel": "Ezekiel Dube-Garrett",
-    "aliases": ["Ezekiel DubeGarrett"]
+    "aliases": [
+      "Ezekiel DubeGarrett"
+    ]
   },
-  { "id": "1717", "formLabel": "Ethan Fang" },
-  { "id": "1760", "formLabel": "Cole Firlie" },
-  { "id": "1756", "formLabel": "Rom Fradkin" },
-  { "id": "1730", "formLabel": "Ethan Geary" },
-  { "id": "1733", "formLabel": "Nate Gehrs" },
-  { "id": "1698", "formLabel": "Drew Geoly" },
-  { "id": "1507", "formLabel": "Jonah Gurion", "aliases": ["Joanh Gurion"] },
-  { "id": "1647", "formLabel": "Keegan Harrison" },
-  { "id": "1588", "formLabel": "Jesse Hedequist", "aliases": ["John Hedequist"] },
-  { "id": "1703", "formLabel": "Noah Hopkins" },
-  { "id": "1556", "formLabel": "Hilal Hussain" },
-  { "id": "1669", "formLabel": "Peter Jedlicka" },
-  { "id": "1552", "formLabel": "Shaunak Joshi" },
-  { "id": "1625", "formLabel": "Mateo Kamarck" },
-  { "id": "1539", "formLabel": "Colin Kamhi" },
-  { "id": "1532", "formLabel": "Munib Kassem" },
+  {
+    "id": "1561",
+    "formLabel": "Gianluca Balestrieri"
+  },
   {
     "id": "1592",
     "formLabel": "GK (Gyeongwu Kim)",
-    "aliases": ["Gyeongwu Kim"]
+    "aliases": [
+      "Gyeongwu Kim"
+    ]
   },
-  { "id": "1525", "formLabel": "AZ Krebs", "aliases": ["Abraham Krebs"] },
-  { "id": "1565", "formLabel": "Andrew Kulhan" },
-  { "id": "1708", "formLabel": "Charles Lai" },
-  { "id": "1725", "formLabel": "Justin Lee" },
-  { "id": "1634", "formLabel": "Eric Lohse" },
-  { "id": "1596", "formLabel": "Caiden Lung" },
-  { "id": "1608", "formLabel": "Colter Mahabir" },
-  { "id": "1740", "formLabel": "Paolo Mangiafico" },
-  { "id": "1600", "formLabel": "Aaron Martin" },
-  { "id": "1518", "formLabel": "Kai McClennen" },
-  { "id": "1622", "formLabel": "Armando Melendez" },
-  { "id": "1676", "formLabel": "Dilin Meloni" },
-  { "id": "1642", "formLabel": "Hayato Nagai" },
-  { "id": "1666", "formLabel": "Isaiah Nathaniel" },
-  { "id": "1646", "formLabel": "Parker Pettit" },
-  { "id": "1601", "formLabel": "Colton Pozniak" },
-  { "id": "1521", "formLabel": "Ethan Reich" },
-  { "id": "1662", "formLabel": "Canon Robins" },
-  { "id": "1651", "formLabel": "Luke Schenk" },
-  { "id": "1658", "formLabel": "Tristan Sprole" },
-  { "id": "1754", "formLabel": "Wilson Stewart" },
-  { "id": "1672", "formLabel": "Thomas Stueber" },
-  { "id": "1638", "formLabel": "Jan Szmajda" },
-  { "id": "1700", "formLabel": "Josh Tang", "aliases": ["Joshua Tang"] },
-  { "id": "1684", "formLabel": "Branden Wang" },
-  { "id": "1610", "formLabel": "Raymond Wang" },
-  { "id": "1694", "formLabel": "Chase Williams" },
-  { "id": "1543", "formLabel": "Reed Williams" },
-  { "id": "1582", "formLabel": "Sean Wilson" },
-  { "id": "1720", "formLabel": "Thomas Wu" },
-  { "id": "1768", "formLabel": "Eric Ye" }
+  {
+    "id": "1642",
+    "formLabel": "Hayato Nagai"
+  },
+  {
+    "id": "1769",
+    "formLabel": "Hernando Ardila"
+  },
+  {
+    "id": "1556",
+    "formLabel": "Hilal Hussain"
+  },
+  {
+    "id": "1688",
+    "formLabel": "Ike Chukwulozie"
+  },
+  {
+    "id": "1666",
+    "formLabel": "Isaiah Nathaniel"
+  },
+  {
+    "id": "1775",
+    "formLabel": "Jamison O'Keefe"
+  },
+  {
+    "id": "1638",
+    "formLabel": "Jan Szmajda"
+  },
+  {
+    "id": "1588",
+    "formLabel": "Jesse Hedequist",
+    "aliases": [
+      "John Hedequist"
+    ]
+  },
+  {
+    "id": "1507",
+    "formLabel": "Jonah Gurion",
+    "aliases": [
+      "Joanh Gurion"
+    ]
+  },
+  {
+    "id": "1700",
+    "formLabel": "Josh Tang",
+    "aliases": [
+      "Joshua Tang"
+    ]
+  },
+  {
+    "id": "1725",
+    "formLabel": "Justin Lee"
+  },
+  {
+    "id": "1518",
+    "formLabel": "Kai McClennen"
+  },
+  {
+    "id": "1647",
+    "formLabel": "Keegan Harrison"
+  },
+  {
+    "id": "1651",
+    "formLabel": "Luke Schenk"
+  },
+  {
+    "id": "1546",
+    "formLabel": "Mahmoud Abdelmoneum"
+  },
+  {
+    "id": "1625",
+    "formLabel": "Mateo Kamarck"
+  },
+  {
+    "id": "1578",
+    "formLabel": "Maxwell Cassidy"
+  },
+  {
+    "id": "1776",
+    "formLabel": "Mitchell Hyland"
+  },
+  {
+    "id": "1532",
+    "formLabel": "Munib Kassem"
+  },
+  {
+    "id": "1733",
+    "formLabel": "Nate Gehrs"
+  },
+  {
+    "id": "1703",
+    "formLabel": "Noah Hopkins"
+  },
+  {
+    "id": "1777",
+    "formLabel": "Oscar Lindenthal"
+  },
+  {
+    "id": "1740",
+    "formLabel": "Paolo Mangiafico"
+  },
+  {
+    "id": "1646",
+    "formLabel": "Parker Pettit"
+  },
+  {
+    "id": "1669",
+    "formLabel": "Peter Jedlicka"
+  },
+  {
+    "id": "1778",
+    "formLabel": "Pradesh Mainali"
+  },
+  {
+    "id": "1511",
+    "formLabel": "Preston Dinh"
+  },
+  {
+    "id": "1610",
+    "formLabel": "Raymond Wang"
+  },
+  {
+    "id": "1543",
+    "formLabel": "Reed Williams"
+  },
+  {
+    "id": "1756",
+    "formLabel": "Rom Fradkin"
+  },
+  {
+    "id": "1582",
+    "formLabel": "Sean Wilson"
+  },
+  {
+    "id": "1552",
+    "formLabel": "Shaunak Joshi"
+  },
+  {
+    "id": "1779",
+    "formLabel": "Shikhar Motupally"
+  },
+  {
+    "id": "1514",
+    "formLabel": "Stephen Andrews"
+  },
+  {
+    "id": "1780",
+    "formLabel": "Theo Chen"
+  },
+  {
+    "id": "1672",
+    "formLabel": "Thomas Stueber"
+  },
+  {
+    "id": "1720",
+    "formLabel": "Thomas Wu"
+  },
+  {
+    "id": "1658",
+    "formLabel": "Tristan Sprole"
+  },
+  {
+    "id": "1754",
+    "formLabel": "Wilson Stewart"
+  },
+  {
+    "id": "1620",
+    "formLabel": "Zain Arfoosh"
+  }
 ]
